@@ -1,30 +1,59 @@
-<!DOCTYPE> 
-<html>
-<body>
-  div {
-  background-color: red;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prithvi J K | Portfolio</title>
+    <style>
+        body {
+            background-color: powderblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+        }
 
-div.first {
-  opacity: 0.1;
+        /* This creates the low-opacity pink card effect */
+        .profile-card {
+            background-color: rgba(255, 192, 203, 0.4); /* Pink with 0.4 opacity */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 600px;
+            text-align: center;
+        }
 
-  </style>
+        h1 { color: #333; margin-bottom: 5px; }
+        h4 { color: #555; margin-top: 0; }
+        p { line-height: 1.6; color: #444; }
+        
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-}
 
-<h1 style="text-align:centre;"> Prithvi J K </h2>
-<h4 style="text-align:centre;"> B.tech student </h4>
-<p>I am pursuing engineering at MITE, currently in 2nd year.As a CSE student, we are exposed to n number of languages like C, C++, Python, JAVA and many more. Our respective faculties teach and guide us to pursure these courses.</p>
-<h4  style="text-align: centre;">Chocolate</h4>
-<a href=https://prithvijk.github.io/sem4-fet/>This is the home page link</a>
+    <div class="profile-card">
+        <h1>Prithvi J K</h1>
+        <h4>B.Tech Student</h4>
+        
+        <p>
+            I am pursuing engineering at MITE, currently in my 2nd year. 
+            As a CSE student, we are exposed to many languages like 
+            <strong>C, C++, Python, Java</strong>, and many more. 
+            Our faculty members guide us through these courses to help us excel.
+        </p>
 
-  <div class="first">
-  <h1>opacity 0.1</h1>
-</div>
+        <h4>Chocolate</h4>
+        <a href="https://prithvijk.github.io/sem4-fet/">Visit Home Page</a>
+    </div>
 
-  <div>
-  <h1>opacity 1 (default)</h1>
-</div>
-  </body>
+</body>
 </html>
