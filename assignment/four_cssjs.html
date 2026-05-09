@@ -30,11 +30,10 @@
             font-weight: bold;
         }
 
-        /* The Only Layer */
         #displayLayer {
             width: 250px;
             height: 250px;
-            background-color: #333; /* Starting color */
+            background-color: #333; 
             display: flex;
             align-items: center;
             justify-content: center;
@@ -42,7 +41,7 @@
             font-size: 1.2rem;
             border-radius: 12px;
             box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            transition: background-color 0.3s ease; /* Smooth fade */
+            transition: background-color 0.3s ease;
         }
     </style>
 </head>
@@ -61,10 +60,10 @@
         function updateColor(newColor) {
             const layer = document.getElementById('displayLayer');
             
-            // Update the background color of the single div
+          
             layer.style.backgroundColor = newColor;
             
-            // Update the text inside
+        
             layer.innerText = newColor.toUpperCase();
         }
     </script>
